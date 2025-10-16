@@ -1,0 +1,13 @@
+alert("Welcome!");
+let username=prompt("Enter your name");
+let marks=prompt("Enter your marks(10-100):");
+marks = Number(marks);  
+if (marks > 80) {
+    alert("Congratulation!" + username +"! You  got A+ grade🏆");
+}
+else if (marks > 60) {
+    alert("You got B+ grade👏");
+}
+else {
+alert("Oh! You Failed.Never give up .Try again💪");
+}
